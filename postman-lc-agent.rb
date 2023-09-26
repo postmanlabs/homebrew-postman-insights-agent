@@ -1,15 +1,15 @@
 class PostmanLcAgent < Formula
   desc "Postman Live Collections Agent"
   homepage "https://www.postman.com"
-  version "0.28.2"
+  version "0.28.3"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://releases.observability.postman.com/cli/0.28.2/postman-lc-agent_0.28.2_darwin_arm64.zip"
-      sha256 "f21ff70083e480d487169ad184ec0ebe95e64d13f031e004408981a713d1bb2b"
+      url "https://releases.observability.postman.com/cli/0.28.3/postman-lc-agent_0.28.3_darwin_arm64.zip"
+      sha256 "82812b1d790c75cf10e317110ed8b7aaea082c7d98e358ff5d27ce1a3d81b4c7"
     else
-      url "https://releases.observability.postman.com/cli/0.28.2/postman-lc-agent_0.28.2_darwin_amd64.zip"
-      sha256 "f7455e624de507d463df7faab2502bee7d23a1d463424b536c46832a30cc3a9b"
+      url "https://releases.observability.postman.com/cli/0.28.3/postman-lc-agent_0.28.3_darwin_amd64.zip"
+      sha256 "e9cddb8017030882e9572c9662cf9c60c53e49e6c8217ec85da86e5af4dbde5c"
     end
   end
 
