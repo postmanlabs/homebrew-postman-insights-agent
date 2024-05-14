@@ -1,15 +1,15 @@
 class PostmanInsightsAgent < Formula
   desc "Postman Insights Agent"
   homepage "https://www.postman.com"
-  version "0.30.5"
+  version "0.30.6"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://releases.observability.postman.com/cli/0.30.5/postman-insights-agent_0.30.5_darwin_arm64.zip"
-      sha256 "0adbf7db5e18f319a276d04aad1750e88e4e46b6a62458a1c60099fc0edd8a87"
+      url "https://releases.observability.postman.com/cli/0.30.6/postman-insights-agent_0.30.6_darwin_arm64.zip"
+      sha256 "1d2e8049badfcf46788bbfa769291357956eca63cd06729c85cb7f4bcc37db04"
     else
-      url "https://releases.observability.postman.com/cli/0.30.5/postman-insights-agent_0.30.5_darwin_amd64.zip"
-      sha256 "de13a018ddb45969a6b5331e4b63e8bea81866a8e6acb3abdca6190cc4fe6da6"
+      url "https://releases.observability.postman.com/cli/0.30.6/postman-insights-agent_0.30.6_darwin_amd64.zip"
+      sha256 "5c00fdd5c3e95b5c9afb6ebceaaae3d662d30af44990430eb6c557e97104e7a6"
     end
   end
 
